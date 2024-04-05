@@ -33,13 +33,13 @@ cat /etc/passwd 　※passwordではない
 # 特定のユーザにsudo権限があるか確認
 
 ```
-[root@ip-YY-YY-YY-YYY sample-XXX]#　id sample-XXX
-uid=1010(sample-XXX) gid=1010(sample-XXX) groups=1010(sample-XXX),10(wheel)
+[root@ip-YY-YY-YY-YYY sample-AAA]#　id sample-AAA
+uid=1010(sample-AAA) gid=1010(sample-AAA) groups=1010(sample-AAA),10(wheel)
 ```
 
 この結果から、わかること。
 
 ユーザid : 1010
 プライマリグループID : 1010
-wheelグループ所属 => ***sample-XXXはsudo権限を持っている****
+wheelグループ所属 => ***sample-AAAはsudo権限を持っている****
 
