@@ -39,9 +39,9 @@ uid=1010(sample-AAA) gid=1010(sample-AAA) groups=1010(sample-AAA),10(wheel)
 
 この結果から、わかること。
 
-ユーザid : 1010
-プライマリグループID : 1010
-wheelグループ所属 => ***sample-AAAはsudo権限を持っている****
+- ユーザid : 1010
+- プライマリグループID : 1010
+- wheelグループ所属 => ***sample-AAAはsudo権限を持っている****
 
 # sudoの設定ファイル
 
