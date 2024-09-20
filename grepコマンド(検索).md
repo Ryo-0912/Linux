@@ -7,7 +7,7 @@ grep [オプション] 検索文字列　検索対象ファイル
 例
 
 ```jsx
-skrum.development@skrum-staging:/usr/share/nginx/html/current$ **grep "22314" storage/logs/laravel-2024-03-15.log**
+skrum.development@skrum-staging:/usr/share/nginx/html/current$ grep "22314" storage/logs/laravel-2024-03-15.log
 
 以下、実行結果
 [2024-03-15 10:20:03] staging.ERROR: Trying to access array offset on value of type null {"userId":**22314**,"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /usr/share/nginx/html/releases/35/app/Services/UserPickupService.php:77)
